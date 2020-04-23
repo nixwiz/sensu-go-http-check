@@ -20,9 +20,9 @@ type Config struct {
 var (
 	plugin = Config{
 		PluginConfig: sensu.PluginConfig{
-			Name:     "sensu-go-http-check",
-			Short:    "HTTP check written in Go",
-			Keyspace: "sensu.io/plugins/sensu-go-http-check/config",
+			Name:     "sensu-example-check",
+			Short:    "Sensu Simple HTTP Check",
+			Keyspace: "sensu.io/plugins/sensu-example-check/config",
 		},
 	}
 
